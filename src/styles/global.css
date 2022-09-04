@@ -1,0 +1,110 @@
+/*
+  The CSS in this style tag is based off of Bear Blog's default CSS.
+  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
+  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  padding: 20px;
+  max-width: 65ch;
+  text-align: left;
+  background-color: #fff;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+  color: rgb(63, 56, 97);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+  color: rgb(42, 41, 63);
+}
+
+h1 {
+  line-height: 140%;
+  margin: 64px 0;
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 48px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  margin-top: 48px;
+  text-align: center;
+}
+
+p {
+  line-height: 200%;
+  text-indent: 1em;
+  padding: 8px 16px;
+}
+
+strong {
+  color: rgb(68, 86, 189);
+}
+
+a {
+  color: #3273dc;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+textarea {
+  width: 100%;
+  font-size: 16px;
+}
+input {
+  font-size: 16px;
+}
+content {
+  line-height: 1.6;
+}
+table {
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+code {
+  padding: 2px 5px;
+  background-color: #f2f2f2;
+}
+pre {
+  padding: 1rem;
+}
+pre > code {
+  all: unset;
+}
+blockquote {
+  border: 1px solid #999;
+  color: #222;
+  padding: 2px 0px 2px 20px;
+  margin: 0px;
+  font-style: italic;
+}
+
+ul {
+  box-sizing: border-box;
+  padding: 32px 0 32px 48px;
+}
+
+ul li {
+  padding: 6px 0;
+}
