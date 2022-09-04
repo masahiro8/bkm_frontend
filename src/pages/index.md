@@ -2,8 +2,10 @@
 title: "フロントエンドのあらゆる課題を解決します"
 description: "Web フロントエンド開発の設計・実装はもちろん、エンジニアの育成、チームビルディングまで、フロントエンドのあらゆる課題を解決します。"
 layout: "../layouts/Page.astro"
-heroImage: "/bkm_frontend_image_01.jpg"
+heroImage: ""
 ---
+
+![フロントエンドのあらゆる課題を解決します](/bkm_frontend_image_01.jpg)
 
 # Web フロントエンド開発の設計・実装はもちろん、エンジニアの育成、チームビルディングまで、フロントエンドのあらゆる課題を解決します。
 
