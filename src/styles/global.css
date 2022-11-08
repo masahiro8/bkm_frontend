@@ -37,9 +37,21 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
+  color: #888;
+  font-size: 14px;
+  font-weight: 100;
   margin-top: 48px;
-  text-align: center;
+  text-align: left;
+}
+
+h2:before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  background: linear-gradient(to right, #444 90%, #bbb 10%);
+  margin: 4px 0;
+  margin-right: 12px;
 }
 
 h3 {
