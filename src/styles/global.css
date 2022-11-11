@@ -55,9 +55,10 @@ h2:before {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 21px;
+  font-weight: 100;
   margin-top: 48px;
-  text-align: center;
+  text-align: left;
 }
 
 p {
@@ -71,7 +72,7 @@ strong {
 }
 
 a {
-  color: #3273dc;
+  color: rgb(30, 76, 146);
 }
 
 nav a {
@@ -106,11 +107,11 @@ pre > code {
   all: unset;
 }
 blockquote {
-  border: 1px solid #999;
   color: #222;
-  padding: 2px 0px 2px 20px;
+  font-size: 14px;
+  line-height: 0.9;
   margin: 0px;
-  font-style: italic;
+  background-color: #f4f4f4;
 }
 
 ul {
